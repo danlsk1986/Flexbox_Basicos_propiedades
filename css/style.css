@@ -144,8 +144,7 @@ h1, h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
-<<<<<<< HEAD
-=======
+
 }
 
 /* 8 */
@@ -237,5 +236,4 @@ h1, h2 {
     flex-grow: 1;
     flex-shrink: 1; */
     flex: 0 0 calc(33.3% - 1rem);
->>>>>>> 92eb0959c34e09224bb36c54387fc0febf2324e4
 }
