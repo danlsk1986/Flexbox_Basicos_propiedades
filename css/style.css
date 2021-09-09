@@ -132,6 +132,16 @@ h1, h2 {
 /*     align-items: stretch;
     align-items: flex-start;   
     align-items: flex-end; */
-    align-items: center;
-    
+    align-items: center;    
+}
+
+/* 7 */
+
+.d-flex-7 {
+    display: flex;
+    height: 80rem;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
