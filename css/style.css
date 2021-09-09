@@ -189,3 +189,21 @@ h1, h2 {
 .d-flex-10 .box {
     flex-basis: 33.3%;
 }
+
+/* 11 */
+
+.d-flex-11 {
+    display: flex;
+}
+
+.d-flex-11 .box:first-of-type {
+    flex-grow: 4;
+}
+
+.d-flex-11 .box:nth-child(2){
+    flex-grow: 1;
+}
+
+.d-flex-11 .box:nth-child(3){
+    flex-grow: 1;
+}
