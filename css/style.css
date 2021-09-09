@@ -153,7 +153,28 @@ h1, h2 {
 }
 
 .d-flex-8 .box {
-    flex-basis: 33.3%;
-    flex-basis: 20rem;
-    flex-basis: 1;
+    /* flex-basis: 33.3%; */
+    flex-basis: 20rem;    
+}
+
+/* 9 */
+
+.d-flex-9 {
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-between;
+    
+}
+
+/* .d-flex-9 .box {
+    flex-basis: calc(33.3% - 1rem);
+} */
+
+.d-flex-9 .box:first-of-type {
+    flex-basis: calc(50% - 1rem);
+}
+
+.d-flex-9 .box:nth-child(2),
+.d-flex-9 .box:nth-child(3) {
+    flex-basis: calc(25% - 1rem);
 }
