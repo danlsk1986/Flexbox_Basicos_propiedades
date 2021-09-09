@@ -222,3 +222,17 @@ h1, h2 {
 .d-flex-12 .box:nth-child(3){
     flex-shrink: 2;
 }
+
+/* 13 */
+
+.d-flex-13 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-13 .box {
+    /* flex-basis: 33.3%;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    flex: 0 0 calc(33.3% - 1rem);
+}
